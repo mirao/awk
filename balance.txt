@@ -1,0 +1,7 @@
+23 Aug 2000	food	-	-	Y	Jimmy's Buffet	30.25
+23 Aug 2000	food	-	-	Y	Hospoda	15.00
+23 Aug 2000	-	inco	-	Y	Boss Man	2001.00
+01 Feb 2001	electro	-	-	N	HP Envy 13"	1000
+01 Feb 2002	-	preplatky	-	Y	Vyuctovani	200.00
+24 Dec 2003	electro	comp	-	N	Prevod electro do comp	300.00
+24 Dec 2003	preplatky	comp	-	N	Prevod electro do comp	300.00

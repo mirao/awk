@@ -1,0 +1,13 @@
+prijmeni	id	zamestnanod	zamestnando	vek
+Novák	1	2004-02-01	NULL	38
+Horák	2	2005-01-01	2005-11-30	23
+Votočková	3	2004-11-01	NULL	28
+Bízová	4	2005-03-01	2005-10-30	26
+Přikryl	5	2005-12-01	NULL	39
+Novák	6	2004-02-01	NULL	38
+Horák	7	2005-01-01	2005-11-30	23
+Votočková	8	2004-11-01	NULL	28
+Bízová	9	2005-03-01	2005-10-30	26
+Přikryl	10	2005-12-01	NULL	39
+Šárecký	11	2004-02-05	NULL	38
+Šikulka	12	2004-02-05	NULL	50

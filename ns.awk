@@ -1,0 +1,1 @@
+// {print FILENAME ": " "number:" NR " count:" NF}
