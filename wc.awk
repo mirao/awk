@@ -4,7 +4,8 @@
 #
 # wc.awk - count lines, words and charcters.
 #
-# NOTE: run the command with LANG=C, otherwise bytes > 127 will be handled as UTF-8 chars
+# NOTE: run the command with option --characters-as-bytes
+# or in enviroment LANG=C, otherwise bytes > 127 will be handled as UTF-8 chars
 
 BEGIN {
 	while (getline > 0) {
