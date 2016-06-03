@@ -4,6 +4,6 @@
 	"version": "0.1.0",
 	"command": "awk",
 	"isShellCommand": true,
-	"args": ["-f${file}", "name.txt"],
+	"args": ["-f${file}"],
 	"showOutput": "always"
 }
