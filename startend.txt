@@ -1,0 +1,18 @@
+first
+END
+false positive
+START
+printable
+START
+text yes
+START
+END
+non printable
+START
+jo
+END
+text
+START
+printable again
+text yes sir
+END
