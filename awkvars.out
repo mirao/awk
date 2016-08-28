@@ -1,19 +1,19 @@
-ARGC: 2
-ARGIND: 1
-ARGV: array, 2 elements
+ARGC: 1
+ARGIND: 0
+ARGV: array, 1 elements
 BINMODE: 0
 CONVFMT: "%.6g"
-ENVIRON: array, 76 elements
+ENVIRON: array, 80 elements
 ERRNO: ""
 FIELDWIDTHS: ""
-FILENAME: "/etc/passwd"
-FNR: 43
+FILENAME: ""
+FNR: 0
 FPAT: "[^[:space:]]+"
-FS: ":"
+FS: " "
 IGNORECASE: 0
 LINT: 0
-NF: 7
-NR: 43
+NF: 1
+NR: 0
 OFMT: "%.6g"
 OFS: " "
 ORS: "\n"
@@ -23,6 +23,9 @@ RLENGTH: 0
 ROUNDMODE: "N"
 RS: "\n"
 RSTART: 0
-RT: "\n"
+RT: ""
 SUBSEP: "\034"
 TEXTDOMAIN: "messages"
+a: array, 3 elements
+nahrad: "gsub"
+rozdel: "split"

@@ -1,7 +1,10 @@
 BEGIN {
-    myarray[1]="jim"
-    myarray[2]=456
-    myarray["mira"]="jobr"
-    myarray["A","B","C"]="hello world"
-    for (i in myarray) print myarray[i]
+    mirovoarray[1]="jim"
+    mirovoarray[2]=456
+    mirovoarray["mira"]="jobr"
+    mirovoarray["A","B","C"]="hello world"
+    mirovoarray[-300] = "minus třista"
+    name = "Mira"
+    mirovoarray[name] = "Obr"
+    for (i in mirovoarray) print i, mirovoarray[i]
 }
