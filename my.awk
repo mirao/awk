@@ -1,12 +1,6 @@
-{
-    a[$0] = $0
-}
-END {
-    split("", a)
-    cnt = 0
-    for (i in a) {
-        print a[i]
-        cnt++
+#! /usr/bin/awk -f
+BEGIN {
+    for (i = 0; i < ARGC; i++) {
+        print ARGV[i]
     }
-    print "Count is", cnt
 }

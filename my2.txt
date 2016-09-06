@@ -1,0 +1,3 @@
+echo Jiny
+echo Jiny2
+echo Jiny3
