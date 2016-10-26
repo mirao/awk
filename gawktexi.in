@@ -1,0 +1,18 @@
+This program has a @code{BEGIN} rule
+that prints a nice message:
+
+@example
+@c file examples/messages.awk
+BEGIN @{ print "Don't panic!" @}
+@c endfile
+@end example
+
+It also prints some final advice:
+@c system if test ! -d eg      ; then mkdir eg      ; fi
+
+@example
+@c file examples/messages.awk
+@c my comment
+END @{ print "Always avoid bored archaeologists and @@comments!" @}
+@c endfile
+@end example

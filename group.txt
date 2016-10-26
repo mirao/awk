@@ -1,0 +1,2 @@
+cdrom:x:24:mira
+sudo:x:27:mira

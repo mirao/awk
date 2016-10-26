@@ -1,3 +1,7 @@
 echo Nazdar
-echo Auto
+echo	Auto
+echop Kaspar
+echo Nazdar
+echoads Nazdar nazdar
+echpads Nazdar
 echo Kaspar

@@ -1,3 +1,3 @@
-echo Jiny
+echv Jiny echo
 echo Jiny2
-echo Jiny3
+echo Jiny3 Jiny
