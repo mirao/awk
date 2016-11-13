@@ -1,0 +1,58 @@
+	# gawk profile, created Thu Oct 27 14:26:57 2016
+
+	# BEGIN rule(s)
+
+	BEGIN {
+		print "First BEGIN rule"
+	}
+
+	BEGIN {
+		print "Second BEGIN rule"
+	}
+
+	# BEGINFILE rule(s)
+
+	BEGINFILE {
+		print FILENAME, "begins", 3 + 5 * 4
+	}
+
+	# Rule(s)
+
+	/foo/ {
+		print "matched /foo/, gosh"
+		for (i = 1; i <= 3; i++) {
+			sing()
+		}
+	}
+
+	{
+		if (/foo/) {
+			print "if is true"
+		} else {
+			print "else is true"
+		}
+	}
+
+	# ENDFILE rule(s)
+
+	ENDFILE {
+		print FILENAME, "ends"
+	}
+
+	# END rule(s)
+
+	END {
+		print "First END rule"
+	}
+
+	END {
+		print "Second END rule"
+	}
+
+
+	# Functions, listed alphabetically
+
+	function sing(dummy)
+	{
+		print "I gotta be me!"
+	}

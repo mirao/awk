@@ -1,3 +1,4 @@
+foo
 echo Nazdar
 echo	Auto
 echop Kaspar

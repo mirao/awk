@@ -1,0 +1,16 @@
+	# gawk profile, created Thu Oct 27 13:19:17 2016
+
+	# BEGIN rule(s)
+
+	BEGIN {
+     1  	Service = "/inet/tcp/0/localhost/http"
+     1  	print("hey") |& Service
+    17  	while ((Service |& getline) > 0) {
+    17  		print $0
+		}
+     1  	if (ERRNO != "") {
+			print ERRNO
+		}
+     1  	close(Service)
+	}
+
